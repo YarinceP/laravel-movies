@@ -53,6 +53,9 @@ class MovieManagementTest extends TestCase
     }
 
 
+    /**
+     * @return PromiseInterface
+     */
     private function fakePopularMovies(): PromiseInterface
     {
         return Http::response([
@@ -80,6 +83,9 @@ class MovieManagementTest extends TestCase
         ], 200);
     }
 
+    /**
+     * @return PromiseInterface
+     */
     private function fakeGenres(): PromiseInterface
     {
         return Http::response([
