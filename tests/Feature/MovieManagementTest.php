@@ -11,7 +11,7 @@ class MovieManagementTest extends TestCase
     /**
      * @test
      */
-    public function index_view_can_be_retrieved()
+    public function index_view_can_be_rendered()
     {
         $response = $this->get('/');
 
@@ -22,7 +22,7 @@ class MovieManagementTest extends TestCase
     /**
      * @test
      */
-    public function show_view_can_be_retrieved()
+    public function show_view_can_be_rendered()
     {
         $this->withoutExceptionHandling();
         $response = $this->get('/movie');
