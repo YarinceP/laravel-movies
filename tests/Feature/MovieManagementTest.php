@@ -3,8 +3,6 @@
 namespace Tests\Feature;
 
 use GuzzleHttp\Promise\PromiseInterface;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Support\Facades\Http;
 use Tests\TestCase;
 
