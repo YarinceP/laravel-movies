@@ -6,7 +6,7 @@
                 Popular Movies
             </h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-16">
-                @foreach($popular_movies as $movie)
+                @foreach($popularMovies as $movie)
                     <div class="mt-8">
                         <a href="#">
                             <img src="{{ 'https://image.tmdb.org/t/p/w500/'.$movie['poster_path'] }}" alt="poster">
