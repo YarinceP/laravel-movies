@@ -6,7 +6,7 @@ use GuzzleHttp\Promise\PromiseInterface;
 use Illuminate\Support\Facades\Http;
 use Tests\TestCase;
 
-class MovieManagementTest extends TestCase
+class ViewMoviesTest extends TestCase
 {
     /**
      * @test
